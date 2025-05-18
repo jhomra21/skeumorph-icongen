@@ -153,6 +153,7 @@ export function SkeuIcongenPage() {
   const [selectedSize, setSelectedSize] = createSignal<string>('512');
   
   const materials = [
+    { id: 'None', name: 'None', value: '' },
     { id: 'glossy', name: 'Glossy', value: 'glossy' },
     { id: 'metallic', name: 'Metallic', value: 'metallic' },
     { id: 'matte', name: 'Matte', value: 'matte' },
