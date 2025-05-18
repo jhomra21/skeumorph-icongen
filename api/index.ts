@@ -101,7 +101,7 @@ app.post('/api/generate-icon-stream', async (c: Context<{ Bindings: Bindings }>)
       num_images: 1, // Must be 1 for streaming
       output_format: output_format || "jpeg",
       num_inference_steps: 28, // As per user example
-      guidance_scale: 2.5,    // As per user example
+      guidance_scale: 5,    // As per user example
       enable_safety_checker: false, // As per user example, though it's Fal's default
       loras: [
         {
