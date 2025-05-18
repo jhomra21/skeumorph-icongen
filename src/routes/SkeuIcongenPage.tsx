@@ -197,7 +197,7 @@ export function SkeuIcongenPage() {
       enhancedPrompt += `, ${angle}`;
     }
     
-    enhancedPrompt += ', skeuomorphic icon, 3D design, high quality render';
+    enhancedPrompt += ', high quality render';
     
     return enhancedPrompt;
   };
